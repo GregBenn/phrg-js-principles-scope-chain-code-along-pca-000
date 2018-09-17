@@ -26,3 +26,5 @@ function attemptTwoFavoriteCustomers(){
     let favoriteCustomer = 'bar'
     let favoriteCustomer = 'not bar'
 }
+
+const wat = "this is basically the same as the previous lab, except that all tests are passing."
