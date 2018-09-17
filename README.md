@@ -4,10 +4,10 @@ JavaScript Practice Scope Lab
 ## Objectives
 
 1. Understand the difference between const and let
-2. Understand functions determine scope in Javascript  
+2. Understand functions determine scope in Javascript
 
 ## Introduction
-Scuber's drivers are beginning to take some notes down about their customers.  Use your knowledge of scope to access and change some of these variables.  
+Scuber's drivers are beginning to take some notes down about their customers.  Use your knowledge of scope to access and change some of these variables.
 
 ## Instructions
 A word of warning.  In this lab, you will practice doing some bad things.  For example, we'll ask you to declare variables in global scope, and write functions that break down.  We do this, because by testing the limits, and exposing the underbelly of a language you can better understand it, and know what to avoid in the future.
@@ -22,7 +22,7 @@ Ok, this is your task.
 
 * overWriteBestCustomer: See the consequences of declaring a variable in global scope, by writing a new function called `overWriteBestCustomer` that changes that `bestCustomer` variable.
 
-* leastFavoriteCustomer and changeLeastFavoriteCustomer: Now declare a constant in global scope called leastFavoriteCustomer customer.  Ok, now write a function called changeLeastFavoriteCustomer that attempts to change that constant - notice what Javascript does when you try to change the constant.  
+* leastFavoriteCustomer and changeLeastFavoriteCustomer: Now declare a constant in global scope called leastFavoriteCustomer customer.  Ok, now write a function called changeLeastFavoriteCustomer that attempts to change that constant - notice what Javascript does when you try to change the constant.
 
 * attemptTwoFavoriteCustomers: Now write another function that will break down.  Try declaring a variable called favoriteCustomer and redeclaring that same variable such that an error is thrown.  This helps illustrate how let only allows a given variable to be declared one time, but that variable can be re-assigned to a different value.  However, const does not allow re-assignment, nor does it allow the same constant to be declared more than once.
 <p data-visibility='hidden'>PHRG JavaScript Practice Scope Lab</p>
